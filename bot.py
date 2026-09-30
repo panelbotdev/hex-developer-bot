@@ -1,10 +1,10 @@
+import os
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import time
 
-# 1. Bot Token Config
-API_TOKEN = '84949765623:AAEv7b8aArzd-OGFOzc0uXvyDFdA0hFHEis'
-
+# 1. Bot Token Config (Render environment variable se read karega)
+API_TOKEN = os.environ.get('BOT_TOKEN', '84949765623:AAEv7b8aArzd-OGFOzc0uXvyDFdA0hFHEis')
 bot = telebot.TeleBot(API_TOKEN)
 
 # 2. Temporary Database
