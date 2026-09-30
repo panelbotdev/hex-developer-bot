@@ -3,7 +3,8 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import time
 
 # 1. Bot Token Config
-API_TOKEN = '84949765623:AAHAEDbXHd3DZ7PTmwykaG1sPJB2iCELvLU'
+API_TOKEN = '84949765623:AAEv7b8aArzd-OGFOzc0uXvyDFdA0hFHEis'
+
 bot = telebot.TeleBot(API_TOKEN)
 
 # 2. Temporary Database
